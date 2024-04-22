@@ -5,6 +5,9 @@ ruby "3.1.2"
 # Audited dependency for auditing changes to your models
 gem "audited"
 
+# Bcrypt for encrypting passwords
+gem 'bcrypt', '~> 3.1.7'
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3", ">= 7.1.3.2"
 
